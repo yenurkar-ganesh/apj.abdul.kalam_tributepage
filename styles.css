@@ -1,0 +1,94 @@
+main{
+    background-color: #e5e5f7;
+    opacity: 0.9;
+    background-image:  radial-gradient(#444cf7 0.6000000000000001px, transparent 0.6000000000000001px), radial-gradient(#444cf7 0.6000000000000001px, #e5e5f7 0.6000000000000001px);
+    background-size: 24px 24px;
+    background-position: 0 0,12px 12px;
+  }
+
+  #title{
+    text-align: center;
+    padding: 0.4in;
+    background-color: black;
+    color: #fff;
+    margin: 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+  }
+
+  h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #image{
+   max-width: 60%;
+   height: auto;
+   border-radius: 16px;
+   box-shadow: 2px 5px 12px  rgba(0, 0, 0, 0.7);
+   margin: 50px;
+
+  }
+
+  #img-div{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #tribute-footer{
+    text-align: center;
+    color: #fff ;
+    background-color: black;
+    padding: 0.2in;
+  }
+
+  #tribute-info{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+    padding: 30px;
+  }
+
+
+  ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: black;
+      overflow: hidden;
+      
+      
+      
+  }
+
+  li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    padding: 10px 30px;
+
+  }
+
+  li:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 15px;
+    transition: .3s;
+    transform: scale(0.95);
+    color: dodgerblue;
+  }
+
+  li a{
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  li a.active{
+    border-radius: 10px;
+    color: dodgerblue;
+  }
+  @media (prefers-reduced-motion: no-preference){ *{
+    scroll-behavior: smooth;
+  }
+  }
